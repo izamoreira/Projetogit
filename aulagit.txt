@@ -1,0 +1,30 @@
+git init (inicia repositorio)
+git config user.name  Izabel ( define nome )
+git config user.email( define email)
+git add . ( adiciona aqrquivo)
+git log ( historico do commit )
+git status ( status da  branch)
+git commmit -m "comentario" ( adiciona mensagem e alteração)
+git branch -m main ( muda a branch de master para main)
+
+Novos Comandos
+git checkout -b ( cria a branch)
+git checkout main ou nome da branch ( muda branch)
+git branch -d (deleta branch)
+git branch -b (muda a branch)
+
+
+or create a new repository on the command line
+echo "# novo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/izamoreira/novo.git
+git push -u origin main
+
+
+or push an existing repository from the command line
+git remote add origin https://github.com/izamoreira/novo.git
+git branch -M main
+git push -u origin main
